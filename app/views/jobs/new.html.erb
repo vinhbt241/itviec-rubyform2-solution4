@@ -1,0 +1,5 @@
+<%= turbo_frame_tag 'modal' do %>
+  <%= render 'shared/modal', header_text: 'New job', return_path: jobs_path do %>
+    <%= render "form", job: @job %>
+  <% end %>
+<% end %>

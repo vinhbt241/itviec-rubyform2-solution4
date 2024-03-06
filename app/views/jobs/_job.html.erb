@@ -1,0 +1,19 @@
+<div id="<%= dom_id job %>">
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Title:</strong>
+    <%= job.title %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Description:</strong>
+    <%= job.description %>
+  </p>
+
+  <% if action_name != "show" %>
+    <div class="flex gap-4">
+      <%= button_to "Edit this job", edit_job_path(job), method: :post, class: "rounded-lg py-3 ml-2 px-5 bg-gray-100 inline-block font-medium" %>
+      <%= button_to "Destroy this job", job_path(job), method: :delete, class: "rounded-lg py-3 ml-2 px-5 bg-gray-100 inline-block font-medium" %>
+    </div>
+    <hr class="mt-6">
+  <% end %>
+</div>
