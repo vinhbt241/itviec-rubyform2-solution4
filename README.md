@@ -1,24 +1,14 @@
-# README
+# ITviec - Ruby Form 2 - Assignment 4
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Assignment
 
-Things you may want to cover:
+Please create a Job model with 2 columns:
 
-* Ruby version
+- Title: String
+- Description: Text
 
-* System dependencies
+Add CRUD functions for Job by using Hotwire
 
-* Configuration
+## Demo video:
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[Click this link to see the demo video](https://drive.google.com/file/d/1jnU1ZVtFv-OLNQP_wzKFEAt30TkyboZK/view?usp=sharing)
